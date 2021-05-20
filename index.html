@@ -16,7 +16,7 @@
 
   <script>
     (async function() {
-      let  text  = await( await fetch(`/api/TestAppConfig`)).text();
+      let  text  = await( await fetch(`/api/TestAppConfig?code=HKqssSzDJBes/GfJ2E4qLRqqa5Qhpv0zvr2UWITI26SApNoFf2AYTw==`)).text();
       document.querySelector('#name').textContent = text;
     }())
   </script>
