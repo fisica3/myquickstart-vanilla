@@ -16,7 +16,7 @@
 
   <script>
     (async function() {
-      let { text } = await( await fetch(`prodpremium01/TestAppConfig?code=fbjNYabC17TPvPaq7UHDBHuhGA6RPa7n3Rbja6qqFpq7qN3FNYdYIg==`)).text();
+      let { text } = await( await fetch(`/api/TestAppConfig?code=fbjNYabC17TPvPaq7UHDBHuhGA6RPa7n3Rbja6qqFpq7qN3FNYdYIg==`)).text();
       document.querySelector('#name').textContent = text;
     }())
   </script>
